@@ -145,13 +145,13 @@ Ensuite dans le fichier [.env](.env) au niveau du MAILER_DSN=gmail://USERNAME:PA
 Dans les fichiers [ContactController.php](/src/Controller/ContactController.php) ligne numero 30 et [OccasionsPageController.php](/src/Controller/OccasionsPageController.php) ligne 99 vous devez remplacer test@gmail.com avec votre adresse e-mail.
 
 
-Avec cette commande, dans le terminal de votre IDE, vous démarrez le serveur de développement
+Avec cette commande, dans le terminal de votre IDE, vous démarrez le serveur de développement :
 
 ```bash
 npx encore dev-server --hot
 ```
 
-Avec cette commande, dans un nouveau terminal de votre IDE, vous lancez le serveur interne de Symfony en arrière-plan.
+Avec cette commande, dans un nouveau terminal de votre IDE, vous lancez le serveur interne de Symfony en arrière-plan :
 
 ```bash
 symfony serve -d
@@ -164,7 +164,7 @@ Vous avez désormais la possibilité de vous connecter à l'espace d'administrat
 
 En vous connectant avec un identifiant d'un employe vous pourrez ajouter des voitures d'occasion pour la vente, d'ajouter, modérer et approuver des témoignages.
 
-Avec cette commande, dans le terminal de votre IDE, vous arrêtez le serveur intern de Symfony
+Avec cette commande, dans le terminal de votre IDE, vous arrêtez le serveur intern de Symfony :
 
 ```bash
 symfony server:stop
