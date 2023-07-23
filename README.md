@@ -24,9 +24,9 @@ Les informations de contact, formulaire compris, sont également visibles en bas
 
 ## Configuration de l'environnement de travail
 
-- ordinateur: [Apple Mac Mini - Apple M2 Pro](https://www.apple.com/newsroom/2023/01/apple-introduces-new-mac-mini-with-m2-and-m2-pro-more-powerful-capable-and-versatile-than-ever/){:target="_blank"}
+- ordinateur: [Apple Mac Mini - Apple M2 Pro](https://www.apple.com/newsroom/2023/01/apple-introduces-new-mac-mini-with-m2-and-m2-pro-more-powerful-capable-and-versatile-than-ever/)
 
-- IDE: [Visual Studio Code 1.80.1](https://code.visualstudio.com/){:target="_blank"}
+- IDE: [Visual Studio Code 1.80.1](https://code.visualstudio.com/)
 
 - serveur Web local: [XAMPP 8.2.4-0](https://www.apachefriends.org/download.html)
 
