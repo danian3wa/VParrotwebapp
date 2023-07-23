@@ -28,6 +28,8 @@ Les informations de contact, formulaire compris, sont également visibles en bas
 
 - IDE: [Visual Studio Code 1.80.1](https://code.visualstudio.com/)
 
+- IDE: [PhpStorm 2023.1.4](https://www.jetbrains.com/phpstorm/download)
+
 - serveur Web local: [XAMPP 8.2.4-0](https://www.apachefriends.org/download.html)
 
 - langage de scripts généraliste: [PHP 8.2.7](https://www.php.net/downloads)
