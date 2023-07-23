@@ -26,6 +26,8 @@ Les informations de contact, formulaire compris, sont également visibles en bas
 
 - ordinateur: [Apple Mac Mini - Apple M2 Pro](https://www.apple.com/newsroom/2023/01/apple-introduces-new-mac-mini-with-m2-and-m2-pro-more-powerful-capable-and-versatile-than-ever/)
 
+- système d'exploitation: [macOS VENTURA 13.4.1(c)](https://support.apple.com/en-us/HT213825)
+
 - IDE: [Visual Studio Code 1.80.1](https://code.visualstudio.com/)
 
 - IDE: [PhpStorm 2023.1.4](https://www.jetbrains.com/phpstorm/download)
