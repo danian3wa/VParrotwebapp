@@ -123,7 +123,7 @@ symfony console security:hash-password
 
 Symfony vous renvoie le mot de passe haché, vous devez le copier.
 
-Dans phpMyAdmin dans la base de données dbparrot, dans la table des employés dans l'onglet SQL, vous devez insérer l'employé en remplaçant \_mot_de_passe_haché\_ par le mot de passe que vous avez copié, vous pouvez remplacer admin@gmail.com par une adresse e-mail de votre choix, elle servira d'identifiant de connexion pour l'administrateur Parrot Vincent.
+Dans phpMyAdmin dans la base de données dbparrot, dans la table des employés dans l'onglet SQL, vous devez insérer l'employé en remplaçant  \_mot_de_passe_haché\_   par le mot de passe que vous avez copié, vous pouvez remplacer admin@gmail.com par une adresse e-mail de votre choix, elle servira d'identifiant de connexion pour l'administrateur Parrot Vincent.
 
 ```bash
 INSERT INTO `employes` (`id`, `nom`, `prenom`, `email`, `roles`, `password`) VALUES
