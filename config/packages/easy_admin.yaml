@@ -1,0 +1,8 @@
+easy_admin:
+    entities:
+        Product:
+            class: App\Entity\Exemplaire
+            form:
+                fields:
+                    # ...
+                    - { property: 'imageFile', type: 'file', type_options: { multiple: false } }

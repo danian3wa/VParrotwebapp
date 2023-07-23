@@ -1,0 +1,45 @@
+<div class="card mb-3" id="occasion-{{ _occasion.id }}">
+	<a href="{{ path('app_exemplaire_show',{'id':_occasion.id}) }}" class="card-link">
+		<h4 class="card-header">{{_occasion.vehicule}}</h4>
+	</a>
+	<div class="card-body">
+		<h5 class="card-title">Prix:
+			{{_occasion.prix | number_format(0, ',', ' ')}}
+			€</h5>
+		<h6 class="card-subtitle text-muted">Année:
+			{{_occasion.annee}}</h6>
+		<h6 class="card-subtitle text-muted">Kilométrage:
+			{{_occasion.Kilometrage | number_format(0, ',', ' ')}}
+			- km
+		</h6>
+	</div>
+	<div id="carouselExampleIndicators" class="carousel slide">
+		<div class="carousel-inner">
+			{% for image in _occasion.image %}
+				<a href="{{ path('app_exemplaire_show',{'id':_occasion.id}) }}" class="">
+					<div class="carousel-item {% if loop.first %}active{% endif %}">
+						<img src="{{ vich_uploader_asset(image, 'imageFile') }}" id="imageVoiture{{ _occasion.id }}" class="d-block w-100" alt="imageVoiture{{ _occasion.id }}">
+					</div>
+				</a>
+			{% endfor %}
+		</div>
+	</div>
+	<ul class="list-group list-group-flush">
+		<li class="list-group-item">Marque :</li>
+		<li class="list-group-item">Modele :</li>
+		<li class="list-group-item">Type de véhicule :
+			{{_occasion.type}}</li>
+	</ul>
+	<div class="card-body">
+		<h5>Descrition</h5>
+		<p class="card-text">{{_occasion.description|slice(0,60)}}...</p>
+	</div>
+	<div class="card-body">
+		<h5>Options</h5>
+		<p class="card-text">{{_occasion.options|slice(0,60)}}...</p>
+	</div>
+	<div class="card-body">
+		<a href="{{ path('app_exemplaire_show',{'id':_occasion.id}) }}" class="card-link">Plus d'info</a>
+	</div>
+	<div class="card-footer text-muted"></div>
+</div>

@@ -1,0 +1,52 @@
+<div class="bs-docs-section">
+	<div class="container">
+		<div class="row">
+			<h4 class="">Rechercher des véhicules par:</h4>
+			<br><br>
+			<div class="col-lg-3">
+				<div class="col-auto my-1">
+					<select class="custom-select mr-sm-2" id="marqueSelect">
+						<option selected>Marque...</option>
+						{% for categorie in categorieList %}
+							<option value="{{ path('app_occcasions_categorie_show',{'id':categorie.id}) }}">{{categorie.libelle}}</option>
+						{% endfor %}
+					</select>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="col-auto my-1">
+					<select class="custom-select mr-sm-2" id="modeleSelect">
+						<option selected>Modele...</option>
+						{% for type in typeList %}
+							<option value="{{ path('app_occcasions_type_show',{'id':type.id}) }}">{{type.libelle}}</option>
+						{% endfor %}
+					</select>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="col-auto my-1">
+					<select class="custom-select mr-sm-2" id="categorieSelect">
+						<option selected>Catégorie...</option>
+						{% for categorie in categorieList %}
+							<option value="{{ path('app_occcasions_categorie_show',{'id':categorie.id}) }}">{{categorie.libelle}}</option>
+						{% endfor %}
+					</select>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="col-auto my-1">
+					<select class="custom-select mr-sm-2" id="typeSelect">
+						<option selected>Type...</option>
+						{% for type in typeList %}
+							<option value="{{ path('app_occcasions_type_show',{'id':type.id}) }}">{{type.libelle}}</option>
+						{% endfor %}
+					</select>
+				</div>
+			</div>
+			<br><br>
+			<h4 class="">Filtrer la recherche des véhicules par:</h4>
+
+			<br><br>
+		</div>
+	</div>
+</div>

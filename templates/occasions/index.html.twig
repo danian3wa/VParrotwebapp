@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Vincent Parrot - Vehicules Occasion
+{% endblock %}
+{% block body %}
+	<div class="container">
+		<br>
+		<h1>Notre sélection de véhicules d'occasion</h1><br>
+	</div>
+	{#{% for carImage in carImages %}
+	<img class="img-fluid rounded" src="{{ vich_uploader_asset(carImage, 'imageFile') }}" alt="Image vehicule">
+	{% endfor %}#}
+	{#{% for image in occasions.getImage() %}
+		<img class="img-fluid rounded" src="{{ vich_uploader_asset(image, 'imageFile') }}" alt="Image vehicule">
+	{% endfor %}#}
+	<div class="container js-filter">
+		<div class="row">
+			<div class="col-md-3">
+				{% include 'occasions/_filter.html.twig' with {form: form, prixmin:prixmin, prixmax:prixmax, kmmin:kmmin, kmmax:kmmax, anneemin:anneemin, anneemax:anneemax} only %}
+			</div>
+			<div class="col-md-9">
+			<div class="d-flex justify-content-end mb-2 js-filter-sorting">
+				{% include 'occasions/_sorting.html.twig' %}
+			</div>
+				<div class="grid js-filter-content">
+					{% include 'occasions/_occasions.html.twig' %}
+				</div>
+				<div class="mt-2 js-filter-pagination">
+					{% include 'occasions/_pagination.html.twig' %}
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}

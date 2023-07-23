@@ -1,0 +1,72 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Vincent Parrot -
+	{{exemplaire.vehicule}}
+{% endblock %}
+
+{% block body %}
+	<div class="container mt-3">
+		<h1>{{exemplaire.vehicule}}</h1>
+		<div class="col-lg-12">
+			<div class="card mb-3">
+				<h3 class="card-header">{{exemplaire.vehicule}}</h3>
+				<div class="card-body">
+					<h5 class="card-title">Prix:{{exemplaire.prix | number_format(0, ',', ' ')}}
+						€</h5>
+					<h6 class="card-subtitle text-muted">Année:
+						{{exemplaire.annee}}</h6>
+					<h6 class="card-subtitle text-muted">Kilométrage:
+						{{exemplaire.Kilometrage | number_format(0, ',', ' ')}}
+						- km
+					</h6>
+				</div>
+				{#{{ vich_uploader_asset(exemplaire, 'exemplaireImages') }}#}
+				<div class="carousel-inner"></div>
+				<div id="carouselExampleFade" class="carousel slide carousel-fade">
+					<div class="carousel-inner">
+							{% for image in exemplaire.image %}
+								<div class="carousel-item {% if loop.first %}active{% endif %}">
+									<img src="{{ vich_uploader_asset(image, 'imageFile') }}" id="imageVoiture{{ exemplaire.id }}" class="d-block w-100" alt="imageVoiture{{ exemplaire.id }}">
+								</div>
+							{% endfor %}
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+
+				{#{% for image in exemplaire.image %}
+																	<img class="img-fluid rounded" src="{{ vich_uploader_asset(image, 'imageFile') }}" alt="Image Vehicule">
+																{% endfor %}#}
+				<div class="card-body">
+					<h3>Descrition</h3>
+					<p class="card-text">{{exemplaire.description}}</p>
+				</div>
+				<div class="card-body">
+					<h3>Options</h3>
+					<p class="card-text">{{exemplaire.options}}</p>
+				</div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">Cras justo odio</li>
+					<li class="list-group-item">Dapibus ac facilisis in</li>
+					<li class="list-group-item">Vestibulum at eros</li>
+				</ul>
+				<div class="card-body">
+					<a href="{{path('app_occasions_page')}}" class="card-link">Liste vehicules</a>
+				</div>
+				<div class="card-footer text-muted"></div>
+			</div>
+		</div>
+	</div>
+	<div class="container w-75 mt-5">
+		<h4>Demandez d'information supplémentaire sur ce véhicule en remplissant ce formulaire</h4>
+		<p>Ou appelez notre équipe par téléphone au:<a class="ms-2" href="tel://+33123456789">01 23 45 67 89</a>
+		</p>
+		{% include '_partials/_formContact.html.twig' with {contact_form: contact_form} only %}
+	</div>
+{% endblock %}

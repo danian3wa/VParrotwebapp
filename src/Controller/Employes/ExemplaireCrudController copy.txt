@@ -1,0 +1,100 @@
+<?php
+
+namespace App\Controller\Employes;
+
+use App\Entity\Exemplaire;
+use Psr\Container\ContainerInterface;
+use Doctrine\ORM\EntityManagerInterface;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Vich\UploaderBundle\Handler\UploadHandler;
+use EasyCorp\Bundle\EasyAdminBundle\Config\Crud;
+use Vich\UploaderBundle\Form\Type\VichImageType;
+
+use EasyCorp\Bundle\EasyAdminBundle\Config\Action;
+use EasyCorp\Bundle\EasyAdminBundle\Config\Actions;
+use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
+use EasyCorp\Bundle\EasyAdminBundle\Field\ImageField;
+
+use EasyCorp\Bundle\EasyAdminBundle\Field\IntegerField;
+use EasyCorp\Bundle\EasyAdminBundle\Field\TextareaField;
+use EasyCorp\Bundle\EasyAdminBundle\Field\AssociationField;
+use Symfony\Component\DependencyInjection\ContainerAwareTrait;
+use Symfony\Component\DependencyInjection\ContainerAwareInterface;
+use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
+
+class ExemplaireCrudController extends AbstractCrudController
+{   
+    
+    private $entityManager;
+    private $uploadHandler;
+    
+
+    public function __construct(EntityManagerInterface $entityManager, UploadHandler $uploadHandler)
+    {
+        $this->entityManager = $entityManager;
+        $this->uploadHandler = $uploadHandler;
+    }
+    //protected  $container;
+
+    //public function __construct(ContainerInterface $container)
+    //{
+    //    $this->container = $container;
+    //}
+    //use ContainerAwareTrait;
+    public static function getEntityFqcn(): string
+    {
+        return Exemplaire::class;
+    }
+
+    public function uploadImagesAction(Request $request): Response
+    {
+        // Handle the image upload
+        $exemplaireIds = $request->request->get('exemplaireIds');
+        $exemplaireIds = is_array($exemplaireIds) ? $exemplaireIds : [];
+        $entityManager = $this->container->get('doctrine')->getManager();
+        //$entityManager = $this->getDoctrine()->getManager();
+        $uploadHandler = $this->get('vich_uploader.upload_handler');
+
+        foreach ($exemplaireIds as $exemplaireId) {
+            $exemplaire = $entityManager->getRepository(Exemplaire::class)->find($exemplaireId);
+
+            if ($exemplaire) {
+                $uploadHandler->upload($exemplaire, 'imageFile');
+            }
+        }
+
+        // Redirect back to the product list
+        return $this->redirect($this->generateUrl('admin', ['entity' => 'Exemplaire']));
+    }
+
+    public function configureActions(Actions $actions): Actions
+    {
+        $uploadImagesAction = Action::new('uploadImagesAction', 'Upload Images')
+            ->linkToCrudAction('uploadImagesAction')
+            ->setCssClass('btn btn-primary');
+
+        return $actions
+            ->add(Crud::PAGE_INDEX, $uploadImagesAction);
+    }
+
+    public function configureFields(string $pageName): iterable
+    {
+        //yield from parent::configureFields($pageName);
+        yield AssociationField::new('vehicule');
+        yield AssociationField::new('categorie');
+        yield AssociationField::new('type');
+        yield IntegerField::new('prix');
+        yield IntegerField::new('annee');
+        yield IntegerField::new('kilometrage');
+        yield TextareaField::new('imageFile')->setFormType(VichImageType::class)->hideOnIndex();
+        yield ImageField::new('imageName')->setBasePath('/images/vehicules')->hideOnForm();
+        yield IntegerField::new('imageSize')->hideOnForm();
+        yield TextareaField::new('description');
+        yield TextareaField::new('options');
+        
+        
+        
+    }
+
+}

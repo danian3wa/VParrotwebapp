@@ -1,0 +1,45 @@
+{{ form_start(form, {attr: {class: 'filter js-filter-form'}}) }}
+
+  <div class="spinner-border js-loading" role="status" aria-hidden="true" style="display: none">
+    <span class="sr-only">Chargement...</span>
+  </div>
+
+  <h4>Prix</h4>
+  <div class="row">
+    <div class="col-md-6">
+      {{ form_row(form.prixmin) }}
+    </div>
+    <div class="col-md-6">
+      {{ form_row(form.prixmax) }}
+    </div>
+  </div>
+  <div id="prix-slider" data-min="{{ prixmin }}" data-max="{{ prixmax }}" style="margin-bottom: 3rem;"></div>
+
+  <h4>Kilométrage</h4>
+  <div class="row">
+    <div class="col-md-6">
+      {{ form_row(form.kmmin) }}
+    </div>
+    <div class="col-md-6">
+      {{ form_row(form.kmmax) }}
+    </div>
+  </div>
+  <div id="km-slider" data-min="{{ kmmin }}" data-max="{{ kmmax }}" style="margin-bottom: 3rem;"></div>
+
+    <h4>Année</h4>
+  <div class="row">
+    <div class="col-md-6">
+      {{ form_row(form.anneemin) }}
+    </div>
+    <div class="col-md-6">
+      {{ form_row(form.anneemax) }}
+    </div>
+  </div>
+  <div id="annee-slider" data-min="{{ anneemin }}" data-max="{{ anneemax }}" style="margin-bottom: 3rem;"></div>
+
+
+
+<button type="submit" class="btn btn-primary w-100">Filtrer</button>
+<a class="btn btn-primary mt-2 mb-3 w-100" href="{{path('app_occasions_page')}}">Réinitialiser</a>
+
+{{ form_end(form) }}
