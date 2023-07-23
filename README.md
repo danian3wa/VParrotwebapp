@@ -24,9 +24,9 @@ Les informations de contact, formulaire compris, sont également visibles en bas
 
 ## Configuration de l'environnement de travail
 
-- ordinateur: [Apple Mac Mini - Apple M2 Pro](https://www.apple.com/newsroom/2023/01/apple-introduces-new-mac-mini-with-m2-and-m2-pro-more-powerful-capable-and-versatile-than-ever/)
+- ordinateur: [Apple Mac Mini - Apple M2 Pro](https://www.apple.com/newsroom/2023/01/apple-introduces-new-mac-mini-with-m2-and-m2-pro-more-powerful-capable-and-versatile-than-ever/){:target="_blank"}
 
-- IDE: [Visual Studio Code 1.80.1](https://code.visualstudio.com/)
+- IDE: [Visual Studio Code 1.80.1](https://code.visualstudio.com/){:target="_blank"}
 
 - serveur Web local: [XAMPP 8.2.4-0](https://www.apachefriends.org/download.html)
 
@@ -80,7 +80,7 @@ Si node.js n'est pas installé sur votre environnement de travail vous trouvere 
 
 * [https://nodejs.org/en/download](https://nodejs.org/en/download)
 
-Dans le fichie [.env](.env) on doit définir les informations concernant l'access a la base des données.'mysql' -> pour le type de base de données, 'root' -> pour l'utilisateur, sans mot de passe en locale, '127.0.0.1:3306' -> l'adresse IP avec et le numero du port, 'bdparrot' -> le nom de la base de données, '10.4.28-MariaDB' -> version et type du serveur, 'utf8mb4' -> pour le type d'encodage des characters.
+Dans le fichie [.env](.env) on doit définir les informations concernant l'access a la base des données.'mysql' -> pour le type de base de données, 'root' -> pour l'utilisateur, sans mot de passe en locale, '127.0.0.1:3306' -> l'adresse IP et le numero du port, 'bdparrot' -> le nom de la base de données, '10.4.28-MariaDB' -> version et type du serveur, 'utf8mb4' -> pour le type d'encodage des characters.
 
     DATABASE_URL="mysql://root:@127.0.0.1:3306/bdparrot?serverVersion=10.4.28-MariaDB&charset=utf8mb4"
 
