@@ -34,7 +34,6 @@ class ContactController extends AbstractController
                     'Téléphone : '.$contactFormData['tel'].\PHP_EOL.
                     'Message : '.$contactFormData['message'],
                     'text/plain');
-            $mailer->send($message);
 
             try {
                 $mailer->send($message);
