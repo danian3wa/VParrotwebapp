@@ -1,10 +1,35 @@
+<p align="center">
+<a href="#">
+		<img width="300" src="public/images/logo.png" alt="Garage Vincent Parrot">
+</a>
+<br><br>
+</p>
+
+[![fr](https://img.shields.io/badge/lang-fr-blue.svg)](https://github.com/danian3wa/VParrotwebapp/blob/main/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/danian3wa/VParrotwebapp/blob/main/README.en.md)
+[![ro](https://img.shields.io/badge/lang-ro-yellow.svg)](https://github.com/danian3wa/VParrotwebapp/blob/main/README.ro.md)
+
+
 # Garage automobile Vincent PARROT web app
+
+<a href="https://github.com/PyvesB/alexa-revolutionary-calendar/blob/master/LICENSE">
+<img src ="https://img.shields.io/github/license/danian3wa/VParrotwebapp" />
+</a>
+<!--<a href="https://github.com/danian3wa/VParrotwebapp/releases">
+<img src ="https://img.shields.io/github/release/danian3wa/VParrotwebapp/releases" />
+</a>-->
+<a href="https://github.com/danian3wa/VParrotwebapp/issues">
+<img src ="https://img.shields.io/github/issues/danian3wa/VParrotwebapp" />
+</a>
+
+
+
 
 Le projet Garage automobile Vincent Parrot c'est une application web réalisé pour une évaluation en cours de formation.
 
 ## Fonctionnalités
 
-Le chef d'entreprise Vincent Parrot détient un compte administrateur qui lui permet de gérer les comptes utilisateurs pour les employés (creation, modification, visualisation, effacement), des gérer les modifications de la section services de réparation au niveau de la page d'accueil (creation, modification, visualisation, effacement), de gérer les modification au niveau de l'horaire d'ouverture/fermeture du garage present dans chaque page du site dans le pied de la page.
+Le chef d'entreprise Vincent Parrot détient un compte administrateur qui lui permet de gérer les comptes utilisateurs pour les employés (creation, modification, visualisation, effacement), des gérer les modifications de la section services de réparation au niveau de la page d'accueil (creation, modification, visualisation, effacement), de gérer les modification au niveau de l'horaire d'ouverture/fermeture du garage present dans chaque page du site web dans le pied de la page.
 
 Le site web affiche de manière claire et concise les différents services de réparation automobile proposés par le garage sur la page d'accueil.
 
@@ -12,7 +37,7 @@ Le site web présent les véhicules d'occasion disponibles à la vente, avec des
 
 Un système de filtres facilite la recherche de véhicules en ajustant les résultats en fonction d'une fourchette de prix, d'un nombre de kilomètres parcourus ou d'une année de mise en circulation.
 
-Seuls les employés ont la possibilité de: ajouter, modifier, visualiser et effacer les voitures d'occasion propose à la vente sur le site internet. 
+Seuls les employés ont la possibilité de: ajouter, modifier, visualiser et effacer les voitures d'occasion propose à la vente sur le site internet.
 
 Les employés ont la possibilité de: ajouter, modifier, visualiser, effacer les témoignages ansi que de modérés les témoignages des visiteurs pour éviter tout contenu inapproprié ou offensant avant la publication sur la page d'accueil des ces témoignage.
 
@@ -26,7 +51,7 @@ Les informations de contact, formulaire compris, sont également visibles en bas
 
 - ordinateur: [Apple Mac Mini - Apple M2 Pro](https://www.apple.com/newsroom/2023/01/apple-introduces-new-mac-mini-with-m2-and-m2-pro-more-powerful-capable-and-versatile-than-ever/)
 
-- système d'exploitation: [macOS VENTURA 13.4.1(c)](https://support.apple.com/en-us/HT213825)
+- système d'exploitation: [macOS VENTURA 13.5](https://support.apple.com/en-us/HT213843)
 
 - IDE: [Visual Studio Code 1.80.1](https://code.visualstudio.com/)
 
@@ -34,13 +59,15 @@ Les informations de contact, formulaire compris, sont également visibles en bas
 
 - serveur Web local: [XAMPP 8.2.4-0](https://www.apachefriends.org/download.html)
 
-- langage de scripts généraliste: [PHP 8.2.7](https://www.php.net/downloads)
+- langage de scripts généraliste: [PHP 8.2.8](https://www.php.net/downloads)
 
 - gestion des dépendances en PHP: [Composer version 2.5.8](https://getcomposer.org/download/)
 
-- moteur d'exécution JavaScript: [Node.js 18.16.1](https://nodejs.org/en/download)
+- moteur d'exécution JavaScript: [Node.js 18.17.0](https://nodejs.org/en/download)
 
-- npx package runner: [npx 9.8.0](https://docs.npmjs.com/cli/v9/commands/npx)
+- gestionnaire de paquets "npm" JavaScript Node.js: [npm 9.8.1](https://docs.npmjs.com/try-the-latest-stable-version-of-npm)
+
+- npx exécution des paquets: [npx 9.8.1](https://www.npmjs.com/package/npx)
 
 - gestionnaire de packages: [yarn 1.22.19](https://classic.yarnpkg.com/lang/en/docs/install/)
 
@@ -52,7 +79,9 @@ Les informations de contact, formulaire compris, sont également visibles en bas
 
 Vous pouvez cloner ce dépôt pour créer une copie locale sur votre ordinateur:
 
-    git clone git@github.com:danian3wa/VParrotwebapp.git
+```bash
+git clone git@github.com:danian3wa/VParrotwebapp.git
+```
 
 Après la configuration de l'environnement du travail vous pouvez passer à l'installation des composants nécessaire. Vous devez ouvrir le projet cloné dans votre IDE. Dans le terminal de votre IDE vous devez vous rendre dans le dossier du projet nouvellement crée après le clonage si ce n'est pas deja le cas:
 
@@ -68,7 +97,7 @@ composer install
 
 Si composer n'est pas installé sur votre environnement de travail vous trouvere a cette adresse des information vous permetant l'instalation:
 
-* [https://getcomposer.org/download/](https://getcomposer.org/download/)
+- [https://getcomposer.org/download/](https://getcomposer.org/download/)
 
 Avec cette commande, dans le terminal vous installez les dépendances du projet présentes dans [yarn.lock](yarn.lock):
 
@@ -78,11 +107,11 @@ yarn
 
 Si yarn n'est pas installé sur votre environnement de travail vous trouvere a cette adresse des information vous permetant l'instalation:
 
-* [https://classic.yarnpkg.com/lang/en/docs/install/](https://classic.yarnpkg.com/lang/en/docs/install/)
+- [https://classic.yarnpkg.com/lang/en/docs/install/](https://classic.yarnpkg.com/lang/en/docs/install/)
 
 Si node.js n'est pas installé sur votre environnement de travail vous trouvere a cette adresse des information vous permetant l'instalation:
 
-* [https://nodejs.org/en/download](https://nodejs.org/en/download)
+- [https://nodejs.org/en/download](https://nodejs.org/en/download)
 
 Dans le fichie [.env](.env) on doit définir les informations concernant l'access a la base des données.'mysql' -> pour le type de base de données, 'root' -> pour l'utilisateur, sans mot de passe en locale, '127.0.0.1:3306' -> l'adresse IP et le numero du port, 'bdparrot' -> le nom de la base de données, '10.4.28-MariaDB' -> version et type du serveur, 'utf8mb4' -> pour le type d'encodage des characters.
 
@@ -127,25 +156,24 @@ symfony console security:hash-password
 
 Symfony vous renvoie le mot de passe haché, vous devez le copier.
 
-Dans phpMyAdmin dans la base de données dbparrot, dans la table des employés dans l'onglet SQL, vous devez insérer l'employé en remplaçant  \_mot_de_passe_haché\_   par le mot de passe que vous avez copié, vous pouvez remplacer admin@gmail.com par une adresse e-mail de votre choix, elle servira d'identifiant de connexion pour l'administrateur Parrot Vincent.
+Dans phpMyAdmin dans la base de données dbparrot, dans la table des employés dans l'onglet SQL, vous devez insérer l'employé en remplaçant \_mot_de_passe_haché\_ par le mot de passe que vous avez copié, vous pouvez remplacer admin@gmail.com par une adresse e-mail de votre choix, elle servira d'identifiant de connexion pour l'administrateur Parrot Vincent.
 
 ```bash
 INSERT INTO `employes` (`id`, `nom`, `prenom`, `email`, `roles`, `password`) VALUES
 (1, 'Parrot', 'Vincent', 'admin@gmail.com', '[\"ROLE_ADMIN\"]', '_mot_de_passe_haché_');
 ```
 
-L'attribute $roles de l'entité [Employes](/src/Entity/Employes.php) est initialisé avec la valeur ["ROLE_EMPLOYE"], donc a chaque creation d'un Employes le role est prédéfini et il ne peut pas être changé dans l'espace de creation d'un nouveau employe par l'administrateur. Le changement peut être realise seulement dans la base de données via phpMyAdmin.
+L'attribute $roles de l'entité [Employes](/src/Entity/Employes.php) est initialisé avec la valeur ["ROLE_EMPLOYE"], donc a chaque creation d'un Employes le role est prédéfini et il ne peut pas être changé dans la section de création d'un nouveau employe par l'administrateur. Le changement peut être realise seulement dans la base de données via phpMyAdmin.
 
 Au moment de la connexion selon le rôle, l'utilisateur est redirigé vers l'espace d'administration le concernant.
 
 Concernant l'envoie des données provenant des formulaires de contact l'application utilise l'envoi d'e-mails. Ces données ne sont pas enregistrées dans la base de données.
 
-Pour ce faire, vous devez disposer d'une adresse Gmail, avec la [Validation en deux étapes Activée](https://myaccount.google.com/signinoptions/two-step-verification) sur le compte et il faut ajouter une [clé de sécurité pour l'application](https://myaccount.google.com/two-step-verification/security-keys). 
+Pour ce faire, vous devez disposer d'une adresse Gmail, avec la [Validation en deux étapes Activée](https://myaccount.google.com/signinoptions/two-step-verification) sur le compte et il faut ajouter une [clé de sécurité pour l'application](https://myaccount.google.com/two-step-verification/security-keys).
 
 Ensuite dans le fichier [.env](.env) au niveau du MAILER_DSN=gmail://USERNAME:PASSWORD@default vous devez remplacer l'USERNAME par votre nom d'utilisateur Gmail et le PASSWORD par votre clé de sécurité que vous avez crée.
 
 Dans les fichiers [ContactController.php](/src/Controller/ContactController.php) ligne numero 30 et [OccasionsPageController.php](/src/Controller/OccasionsPageController.php) ligne 99 vous devez remplacer test@gmail.com avec votre adresse e-mail.
-
 
 Avec cette commande, dans le terminal de votre IDE, vous démarrez le serveur de développement :
 
