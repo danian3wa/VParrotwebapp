@@ -12,7 +12,7 @@
 
 # Garage automobile Vincent PARROT web app
 
-<a href="https://github.com/PyvesB/alexa-revolutionary-calendar/blob/master/LICENSE">
+<a href="https://github.com/danian3wa/VParrotwebapp/blob/master/LICENSE">
 <img src ="https://img.shields.io/github/license/danian3wa/VParrotwebapp" />
 </a>
 <!--<a href="https://github.com/danian3wa/VParrotwebapp/releases">
