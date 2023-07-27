@@ -20,10 +20,7 @@
 </a>-->
 <a href="https://github.com/danian3wa/VParrotwebapp/issues">
 <img src ="https://img.shields.io/github/issues/danian3wa/VParrotwebapp" />
-</a>
-
-
-
+</a><br><br>
 
 Le projet Garage automobile Vincent Parrot c'est une application web réalisé pour une évaluation en cours de formation.
 

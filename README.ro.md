@@ -19,8 +19,7 @@
 </a>-->
 <a href="https://github.com/danian3wa/VParrotwebapp/issues">
 <img src ="https://img.shields.io/github/issues/danian3wa/VParrotwebapp" />
-</a>
-<br><br>
+</a><br><br>
 
 Proiectul Service automobile Vincent Parrot este o aplicație web creată pentru o evaluare în timpul cursurilor.
 
