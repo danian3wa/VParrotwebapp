@@ -21,6 +21,8 @@
 <img src ="https://img.shields.io/github/issues/danian3wa/VParrotwebapp" />
 </a><br><br>
 
+Link to the online version of the project: [Cilck here](https://vparrot.technidan.com)
+
 The Auto Repair Vincent Parrot project is a web application created for an evaluation during training.
 
 ## Features

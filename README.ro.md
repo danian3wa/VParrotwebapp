@@ -21,6 +21,8 @@
 <img src ="https://img.shields.io/github/issues/danian3wa/VParrotwebapp" />
 </a><br><br>
 
+Link către versiunea online a proiectului: [Click aici](https://vparrot.technidan.com)
+
 Proiectul Service automobile Vincent Parrot este o aplicație web creată pentru o evaluare în timpul cursurilor.
 
 ## Caracteristici
