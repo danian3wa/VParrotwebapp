@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 27.7.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 2169 933" style="enable-background:new 0 0 2169 933;" xml:space="preserve">
+	 viewBox="0 0 2168 933" style="enable-background:new 0 0 2168 933;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;}
 	.st1{fill:#7ACFF5;stroke:#000000;}
@@ -30,91 +30,91 @@
 		</g>
 	</g>
 	<g>
-		<rect x="8.5" y="22.9" pointer-events="all" class="st0" width="218.7" height="16"/>
+		<rect x="8.5" y="20.5" pointer-events="all" class="st0" width="214" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 15 35.35)" class="st5 st4">-id : int</text>
+			<text transform="matrix(1 0 0 1 15 33)" class="st5 st4">-id : int</text>
 		</g>
 	</g>
 	<g>
-		<rect x="8.5" y="38.8" pointer-events="all" class="st0" width="218.7" height="16"/>
+		<rect x="8.5" y="36.5" pointer-events="all" class="st0" width="214" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 15 51.35)" class="st5 st4">-nom : string</text>
+			<text transform="matrix(1 0 0 1 15 49)" class="st5 st4">-nom : string</text>
 		</g>
 	</g>
 	<g>
-		<rect x="8.5" y="54.8" pointer-events="all" class="st0" width="218.7" height="16"/>
+		<rect x="8.5" y="52.5" pointer-events="all" class="st0" width="214" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 15 67.35)" class="st5 st4">-modeles : Collection</text>
+			<text transform="matrix(1 0 0 1 15 65)" class="st5 st4">-modeles : Collection</text>
 		</g>
 	</g>
 	<g>
-		<rect x="8.5" y="72.8" pointer-events="all" class="st0" width="218.7" height="16"/>
+		<rect x="8.5" y="70.5" pointer-events="all" class="st0" width="214" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 15 85.35)" class="st5 st4">+__construct()</text>
+			<text transform="matrix(1 0 0 1 15 83)" class="st5 st4">+__construct()</text>
 		</g>
 	</g>
 	<g>
-		<rect x="8.5" y="88.8" pointer-events="all" class="st0" width="218.7" height="16"/>
+		<rect x="8.5" y="86.5" pointer-events="all" class="st0" width="214" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 15 101.35)" class="st5 st4">+__toString() : string</text>
+			<text transform="matrix(1 0 0 1 15 99)" class="st5 st4">+__toString() : string</text>
 		</g>
 	</g>
 	<g>
-		<rect x="8.5" y="104.8" pointer-events="all" class="st0" width="218.7" height="16"/>
+		<rect x="8.5" y="102.5" pointer-events="all" class="st0" width="214" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 15 117.35)" class="st5 st4">+getId() : int</text>
+			<text transform="matrix(1 0 0 1 15 115)" class="st5 st4">+getId() : int</text>
 		</g>
 	</g>
 	<g>
-		<rect x="8.5" y="120.8" pointer-events="all" class="st0" width="218.7" height="16"/>
+		<rect x="8.5" y="118.5" pointer-events="all" class="st0" width="214" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 15 133.35)" class="st5 st4">+getNom(): string</text>
+			<text transform="matrix(1 0 0 1 15 131)" class="st5 st4">+getNom(): string</text>
 		</g>
 	</g>
 	<g>
-		<rect x="8.5" y="136.9" pointer-events="all" class="st0" width="218.7" height="16"/>
+		<rect x="8.5" y="134.5" pointer-events="all" class="st0" width="214" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 15 149.35)" class="st5 st4">+setNom(string nom) : static</text>
+			<text transform="matrix(1 0 0 1 15 147)" class="st5 st4">+setNom(string nom) : static</text>
 		</g>
 	</g>
 	<g>
-		<rect x="8.5" y="152.9" pointer-events="all" class="st0" width="218.7" height="16"/>
+		<rect x="8.5" y="150.5" pointer-events="all" class="st0" width="214" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 15 165.35)" class="st5 st4">+getModeles() : Collection</text>
+			<text transform="matrix(1 0 0 1 15 163)" class="st5 st4">+getModeles() : Collection</text>
 		</g>
 	</g>
 	<g>
-		<rect x="8.5" y="168.9" pointer-events="all" class="st0" width="218.7" height="16"/>
+		<rect x="8.5" y="166.5" pointer-events="all" class="st0" width="214" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 15 181.35)" class="st5 st4">+addModele(Modele modele) : static</text>
+			<text transform="matrix(1 0 0 1 15 179)" class="st5 st4">+addModele(Modele modele) : static</text>
 		</g>
 	</g>
 	<g>
-		<rect x="8.5" y="184.9" pointer-events="all" class="st0" width="218.7" height="16"/>
+		<rect x="8.5" y="182.5" pointer-events="all" class="st0" width="214" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 15 197.35)" class="st5 st4">+removeModel(Modele model) : static</text>
+			<text transform="matrix(1 0 0 1 15 195)" class="st5 st4">+removeModel(Modele model) : static</text>
 		</g>
 	</g>
 	<g>
@@ -133,115 +133,115 @@
 		</g>
 	</g>
 	<g>
-		<rect x="412.5" y="25.4" pointer-events="all" class="st0" width="246.7" height="16"/>
+		<rect x="412.5" y="23" pointer-events="all" class="st0" width="242" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 419 37.85)" class="st5 st4">-id : int</text>
+			<text transform="matrix(1 0 0 1 419 35.5)" class="st5 st4">-id : int</text>
 		</g>
 	</g>
 	<g>
-		<rect x="412.5" y="41.3" pointer-events="all" class="st0" width="246.7" height="16"/>
+		<rect x="412.5" y="39" pointer-events="all" class="st0" width="242" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 419 53.85)" class="st5 st4">-nom : string</text>
+			<text transform="matrix(1 0 0 1 419 51.5)" class="st5 st4">-nom : string</text>
 		</g>
 	</g>
 	<g>
-		<rect x="412.5" y="57.3" pointer-events="all" class="st0" width="246.7" height="16"/>
+		<rect x="412.5" y="55" pointer-events="all" class="st0" width="242" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 419 69.85)" class="st5 st4">-marque : Marque</text>
+			<text transform="matrix(1 0 0 1 419 67.5)" class="st5 st4">-marque : Marque</text>
 		</g>
 	</g>
 	<g>
-		<rect x="412.5" y="73.3" pointer-events="all" class="st0" width="246.7" height="16"/>
+		<rect x="412.5" y="71" pointer-events="all" class="st0" width="242" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 419 85.85)" class="st5 st4">-vehicules : Collection</text>
+			<text transform="matrix(1 0 0 1 419 83.5)" class="st5 st4">-vehicules : Collection</text>
 		</g>
 	</g>
 	<g>
-		<rect x="412.5" y="91.3" pointer-events="all" class="st0" width="246.7" height="16"/>
+		<rect x="412.5" y="89" pointer-events="all" class="st0" width="242" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 419 103.85)" class="st5 st4">+__construct()</text>
+			<text transform="matrix(1 0 0 1 419 101.5)" class="st5 st4">+__construct()</text>
 		</g>
 	</g>
 	<g>
-		<rect x="412.5" y="107.3" pointer-events="all" class="st0" width="246.7" height="16"/>
+		<rect x="412.5" y="105" pointer-events="all" class="st0" width="242" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 419 119.85)" class="st5 st4">+__toString() : string</text>
+			<text transform="matrix(1 0 0 1 419 117.5)" class="st5 st4">+__toString() : string</text>
 		</g>
 	</g>
 	<g>
-		<rect x="412.5" y="123.3" pointer-events="all" class="st0" width="246.7" height="16"/>
+		<rect x="412.5" y="121" pointer-events="all" class="st0" width="242" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 419 135.85)" class="st5 st4">+getId() : int</text>
+			<text transform="matrix(1 0 0 1 419 133.5)" class="st5 st4">+getId() : int</text>
 		</g>
 	</g>
 	<g>
-		<rect x="412.5" y="139.4" pointer-events="all" class="st0" width="246.7" height="16"/>
+		<rect x="412.5" y="137" pointer-events="all" class="st0" width="242" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 419 151.85)" class="st5 st4">+getNom() : string</text>
+			<text transform="matrix(1 0 0 1 419 149.5)" class="st5 st4">+getNom() : string</text>
 		</g>
 	</g>
 	<g>
-		<rect x="412.5" y="155.4" pointer-events="all" class="st0" width="246.7" height="16"/>
+		<rect x="412.5" y="153" pointer-events="all" class="st0" width="242" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 419 167.85)" class="st5 st4">+setNom(string nom) : static</text>
+			<text transform="matrix(1 0 0 1 419 165.5)" class="st5 st4">+setNom(string nom) : static</text>
 		</g>
 	</g>
 	<g>
-		<rect x="412.5" y="171.4" pointer-events="all" class="st0" width="246.7" height="16"/>
+		<rect x="412.5" y="169" pointer-events="all" class="st0" width="242" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 419 183.85)" class="st5 st4">+getMarque() : Marque</text>
+			<text transform="matrix(1 0 0 1 419 181.5)" class="st5 st4">+getMarque() : Marque</text>
 		</g>
 	</g>
 	<g>
-		<rect x="412.5" y="187.4" pointer-events="all" class="st0" width="246.7" height="16"/>
+		<rect x="412.5" y="185" pointer-events="all" class="st0" width="242" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 419 199.85)" class="st5 st4">+setMarque(Marque marque) : static</text>
+			<text transform="matrix(1 0 0 1 419 197.5)" class="st5 st4">+setMarque(Marque marque) : static</text>
 		</g>
 	</g>
 	<g>
-		<rect x="412.5" y="203.4" pointer-events="all" class="st0" width="246.7" height="16"/>
+		<rect x="412.5" y="201" pointer-events="all" class="st0" width="242" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 419 215.85)" class="st5 st4">+getVehicules() : Collection</text>
+			<text transform="matrix(1 0 0 1 419 213.5)" class="st5 st4">+getVehicules() : Collection</text>
 		</g>
 	</g>
 	<g>
-		<rect x="412.5" y="219.4" pointer-events="all" class="st0" width="246.7" height="16"/>
+		<rect x="412.5" y="217" pointer-events="all" class="st0" width="242" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 419 231.85)" class="st5 st4">+addVehicule(Vehicule vehicule) : static</text>
+			<text transform="matrix(1 0 0 1 419 229.5)" class="st5 st4">+addVehicule(Vehicule vehicule) : static</text>
 		</g>
 	</g>
 	<g>
-		<rect x="412.5" y="235.4" pointer-events="all" class="st0" width="246.7" height="16"/>
+		<rect x="412.5" y="233" pointer-events="all" class="st0" width="242" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 419 247.85)" class="st5 st4">+removeVehicule(Vehicule vehicule) : static</text>
+			<text transform="matrix(1 0 0 1 419 245.5)" class="st5 st4">+removeVehicule(Vehicule vehicule) : static</text>
 		</g>
 	</g>
 	<g>
@@ -392,91 +392,91 @@
 		</g>
 	</g>
 	<g>
-		<rect x="1883.5" y="190.2" pointer-events="all" class="st0" width="284" height="16"/>
+		<rect x="1883.5" y="192.5" pointer-events="all" class="st0" width="288.7" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 1890 202.66)" class="st5 st4">-id : int</text>
+			<text transform="matrix(1 0 0 1 1890 205.01)" class="st5 st4">-id : int</text>
 		</g>
 	</g>
 	<g>
-		<rect x="1883.5" y="206.2" pointer-events="all" class="st0" width="284" height="16"/>
+		<rect x="1883.5" y="208.5" pointer-events="all" class="st0" width="288.7" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 1890 218.66)" class="st5 st4">-libelle : string</text>
+			<text transform="matrix(1 0 0 1 1890 221.01)" class="st5 st4">-libelle : string</text>
 		</g>
 	</g>
 	<g>
-		<rect x="1883.5" y="222.2" pointer-events="all" class="st0" width="284" height="16"/>
+		<rect x="1883.5" y="224.5" pointer-events="all" class="st0" width="288.7" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 1890 234.66)" class="st5 st4">-exemplaires : Collection</text>
+			<text transform="matrix(1 0 0 1 1890 237.01)" class="st5 st4">-exemplaires : Collection</text>
 		</g>
 	</g>
 	<g>
-		<rect x="1883.5" y="240.2" pointer-events="all" class="st0" width="284" height="16"/>
+		<rect x="1883.5" y="242.5" pointer-events="all" class="st0" width="288.7" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 1890 252.66)" class="st5 st4">+__construct()</text>
+			<text transform="matrix(1 0 0 1 1890 255.01)" class="st5 st4">+__construct()</text>
 		</g>
 	</g>
 	<g>
-		<rect x="1883.5" y="256.2" pointer-events="all" class="st0" width="284" height="16"/>
+		<rect x="1883.5" y="258.5" pointer-events="all" class="st0" width="288.7" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 1890 268.66)" class="st5 st4">+__toString() : string</text>
+			<text transform="matrix(1 0 0 1 1890 271.01)" class="st5 st4">+__toString() : string</text>
 		</g>
 	</g>
 	<g>
-		<rect x="1883.5" y="272.2" pointer-events="all" class="st0" width="284" height="16"/>
+		<rect x="1883.5" y="274.5" pointer-events="all" class="st0" width="288.7" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 1890 284.66)" class="st5 st4">+getId() : int</text>
+			<text transform="matrix(1 0 0 1 1890 287.01)" class="st5 st4">+getId() : int</text>
 		</g>
 	</g>
 	<g>
-		<rect x="1883.5" y="288.2" pointer-events="all" class="st0" width="284" height="16"/>
+		<rect x="1883.5" y="290.5" pointer-events="all" class="st0" width="288.7" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 1890 300.66)" class="st5 st4">+getLibelle(): string</text>
+			<text transform="matrix(1 0 0 1 1890 303.01)" class="st5 st4">+getLibelle(): string</text>
 		</g>
 	</g>
 	<g>
-		<rect x="1883.5" y="304.2" pointer-events="all" class="st0" width="284" height="16"/>
+		<rect x="1883.5" y="306.5" pointer-events="all" class="st0" width="288.7" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 1890 316.66)" class="st5 st4">+setLibelle(string libelle) : static</text>
+			<text transform="matrix(1 0 0 1 1890 319.01)" class="st5 st4">+setLibelle(string libelle) : static</text>
 		</g>
 	</g>
 	<g>
-		<rect x="1883.5" y="320.2" pointer-events="all" class="st0" width="284" height="16"/>
+		<rect x="1883.5" y="322.5" pointer-events="all" class="st0" width="288.7" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 1890 332.66)" class="st5 st4">+getExemplaires() : Collection</text>
+			<text transform="matrix(1 0 0 1 1890 335.01)" class="st5 st4">+getExemplaires() : Collection</text>
 		</g>
 	</g>
 	<g>
-		<rect x="1883.5" y="336.2" pointer-events="all" class="st0" width="284" height="16"/>
+		<rect x="1883.5" y="338.5" pointer-events="all" class="st0" width="288.7" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 1890 348.66)" class="st5 st4">+addExemplaire(Exemplaire exemplaire) : static</text>
+			<text transform="matrix(1 0 0 1 1890 351.01)" class="st5 st4">+addExemplaire(Exemplaire exemplaire) : static</text>
 		</g>
 	</g>
 	<g>
-		<rect x="1883.5" y="352.2" pointer-events="all" class="st0" width="284" height="16"/>
+		<rect x="1883.5" y="354.5" pointer-events="all" class="st0" width="288.7" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 1890 364.66)" class="st5 st4">+removeExemplaire(Exemplaire exemplaire) : static</text>
+			<text transform="matrix(1 0 0 1 1890 367.01)" class="st5 st4">+removeExemplaire(Exemplaire exemplaire) : static</text>
 		</g>
 	</g>
 	<g>
@@ -1635,7 +1635,7 @@
 		</g>
 	</g>
 	<g>
-		<rect x="848.5" y="602.5" pointer-events="all" class="st1" width="291" height="329"/>
+		<rect x="848.5" y="602.5" pointer-events="all" class="st1" width="291" height="240"/>
 		<path pointer-events="all" class="st2" d="M848.5,619.5h291"/>
 		<path pointer-events="all" class="st2" d="M848.5,720.5h291"/>
 	</g>
@@ -1652,160 +1652,112 @@
 		</g>
 	</g>
 	<g>
-		<rect x="848.5" y="624.8" pointer-events="all" class="st0" width="295.7" height="16"/>
+		<rect x="848.5" y="622.5" pointer-events="all" class="st0" width="291" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 855 637.35)" class="st5 st4">-id : int</text>
+			<text transform="matrix(1 0 0 1 855 635)" class="st5 st4">-id : int</text>
 		</g>
 	</g>
 	<g>
-		<rect x="848.5" y="640.8" pointer-events="all" class="st0" width="295.7" height="16"/>
+		<rect x="848.5" y="638.5" pointer-events="all" class="st0" width="291" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 855 653.35)" class="st5 st4">-nom : string</text>
+			<text transform="matrix(1 0 0 1 855 651)" class="st5 st4">-nom : string</text>
 		</g>
 	</g>
 	<g>
-		<rect x="848.5" y="656.8" pointer-events="all" class="st0" width="295.7" height="16"/>
+		<rect x="848.5" y="654.5" pointer-events="all" class="st0" width="291" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 855 669.35)" class="st5 st4">-prenom : string</text>
+			<text transform="matrix(1 0 0 1 855 667)" class="st5 st4">-prenom : string</text>
 		</g>
 	</g>
 	<g>
-		<rect x="848.5" y="672.8" pointer-events="all" class="st0" width="295.7" height="16"/>
+		<rect x="848.5" y="670.5" pointer-events="all" class="st0" width="291" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 855 685.35)" class="st5 st4">-email : string</text>
+			<text transform="matrix(1 0 0 1 855 683)" class="st5 st4">-email : string</text>
 		</g>
 	</g>
 	<g>
-		<rect x="848.5" y="688.8" pointer-events="all" class="st0" width="295.7" height="16"/>
+		<rect x="848.5" y="686.5" pointer-events="all" class="st0" width="291" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 855 701.35)" class="st5 st4">-roles : array</text>
+			<text transform="matrix(1 0 0 1 855 699)" class="st5 st4">-roles : array</text>
 		</g>
 	</g>
 	<g>
-		<rect x="848.5" y="704.8" pointer-events="all" class="st0" width="295.7" height="16"/>
+		<rect x="848.5" y="702.5" pointer-events="all" class="st0" width="291" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 855 717.35)" class="st5 st4">#password : string</text>
+			<text transform="matrix(1 0 0 1 855 715)" class="st5 st4">#password : string</text>
 		</g>
 	</g>
 	<g>
-		<rect x="848.5" y="722.8" pointer-events="all" class="st0" width="295.7" height="16"/>
+		<rect x="848.5" y="720.5" pointer-events="all" class="st0" width="291" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 855 735.35)" class="st5 st4">+getId() : int</text>
+			<text transform="matrix(1 0 0 1 855 733)" class="st5 st4">+getId() : int</text>
 		</g>
 	</g>
 	<g>
-		<rect x="848.5" y="738.8" pointer-events="all" class="st0" width="295.7" height="16"/>
+		<rect x="848.5" y="736.5" pointer-events="all" class="st0" width="291" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 855 751.35)" class="st5 st4">+getNom(): string</text>
+			<text transform="matrix(1 0 0 1 855 749)" class="st5 st4">+getNom(): string</text>
 		</g>
 	</g>
 	<g>
-		<rect x="848.5" y="754.8" pointer-events="all" class="st0" width="295.7" height="16"/>
+		<rect x="848.5" y="752.5" pointer-events="all" class="st0" width="291" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 855 767.35)" class="st5 st4">+setNom(string nom) : static</text>
+			<text transform="matrix(1 0 0 1 855 765)" class="st5 st4">+setNom(string nom) : static</text>
 		</g>
 	</g>
 	<g>
-		<rect x="848.5" y="770.8" pointer-events="all" class="st0" width="295.7" height="16"/>
+		<rect x="848.5" y="768.5" pointer-events="all" class="st0" width="291" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 855 783.35)" class="st5 st4">+getPrenom(): string</text>
+			<text transform="matrix(1 0 0 1 855 781)" class="st5 st4">+getPrenom(): string</text>
 		</g>
 	</g>
 	<g>
-		<rect x="848.5" y="786.8" pointer-events="all" class="st0" width="295.7" height="16"/>
+		<rect x="848.5" y="784.5" pointer-events="all" class="st0" width="291" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 855 799.35)" class="st5 st4">+setPrenom(string prenom) : static</text>
+			<text transform="matrix(1 0 0 1 855 797)" class="st5 st4">+setPrenom(string prenom) : static</text>
 		</g>
 	</g>
 	<g>
-		<rect x="848.5" y="802.8" pointer-events="all" class="st0" width="295.7" height="16"/>
+		<rect x="848.5" y="800.5" pointer-events="all" class="st0" width="291" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 855 815.35)" class="st5 st4">+getEmail() : string</text>
+			<text transform="matrix(1 0 0 1 855 813)" class="st5 st4">+getEmail() : string</text>
 		</g>
 	</g>
 	<g>
-		<rect x="848.5" y="818.8" pointer-events="all" class="st0" width="295.7" height="16"/>
+		<rect x="848.5" y="816.5" pointer-events="all" class="st0" width="291" height="16"/>
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 855 831.35)" class="st5 st4">+setEmail(string email) : static</text>
+			<text transform="matrix(1 0 0 1 855 829)" class="st5 st4">+setEmail(string email) : static</text>
 		</g>
 	</g>
 	<g>
-		<rect x="848.5" y="834.8" pointer-events="all" class="st0" width="295.7" height="16"/>
-	</g>
-	<g>
-		<g>
-			<text transform="matrix(1 0 0 1 855 847.35)" class="st5 st4">+getUserIdentifire() : string</text>
-		</g>
-	</g>
-	<g>
-		<rect x="848.5" y="850.8" pointer-events="all" class="st0" width="295.7" height="16"/>
-	</g>
-	<g>
-		<g>
-			<text transform="matrix(1 0 0 1 855 863.35)" class="st5 st4">+getRoles() : array</text>
-		</g>
-	</g>
-	<g>
-		<rect x="848.5" y="866.8" pointer-events="all" class="st0" width="295.7" height="16"/>
-	</g>
-	<g>
-		<g>
-			<text transform="matrix(1 0 0 1 855 879.35)" class="st5 st4">+setRoles(array roles) : static</text>
-		</g>
-	</g>
-	<g>
-		<rect x="848.5" y="882.8" pointer-events="all" class="st0" width="295.7" height="16"/>
-	</g>
-	<g>
-		<g>
-			<text transform="matrix(1 0 0 1 855 895.35)" class="st5 st4">+getPassword() : string</text>
-		</g>
-	</g>
-	<g>
-		<rect x="848.5" y="898.8" pointer-events="all" class="st0" width="295.7" height="16"/>
-	</g>
-	<g>
-		<g>
-			<text transform="matrix(1 0 0 1 855 911.35)" class="st5 st4">+setPassword(string password) : static</text>
-		</g>
-	</g>
-	<g>
-		<rect x="848.5" y="914.8" pointer-events="all" class="st0" width="295.7" height="16"/>
-	</g>
-	<g>
-		<g>
-			<text transform="matrix(1 0 0 1 855 927.35)" class="st5 st4">+eraseCredentials() : void</text>
-		</g>
-	</g>
-	<g>
-		<path pointer-events="stroke" class="st2" d="M412.4,65.2v-1.5c0-1-3.3-1.5-10-1.5H258.6c-6.7,0-10,0.3-10,0.9v0.5
-			c0,0.3-3.3,0.5-10,0.5H223"/>
+		<path pointer-events="stroke" class="st2" d="M412.7,64.7v-1.4c0-0.9-3.3-1.4-10-1.4H258.6c-6.7,0-10,0.3-10,0.8v0.4
+			c0,0.3-3.3,0.4-10,0.4h-15.3"/>
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
@@ -1830,47 +1782,47 @@
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
-			<text transform="matrix(1 0 0 1 226.3542 58.8063)" class="st5 st6">0</text>
-			<text transform="matrix(1 0 0 1 232.4719 58.8063)" class="st5 st6">,</text>
-			<text transform="matrix(1 0 0 1 235.5281 58.8063)" class="st5 st6">n</text>
+			<text transform="matrix(1 0 0 1 227.3542 58.8063)" class="st5 st6">0</text>
+			<text transform="matrix(1 0 0 1 233.4719 58.8063)" class="st5 st6">,</text>
+			<text transform="matrix(1 0 0 1 236.5281 58.8063)" class="st5 st6">n</text>
 		</g>
 	</g>
 	<g>
-		<path pointer-events="stroke" class="st2" d="M852.4,48.7h-10.9c-6.7,0-10,2.8-10,8.4v4.2c0,2.8-3.3,4.2-10,4.2H708.6
-			c-6.7,0-10,2.1-10,6.3v3.2c0,2.1-3.3,3.1-10,3.1h-34.9"/>
+		<path pointer-events="stroke" class="st2" d="M852.7,49.4h-11.2c-6.7,0-10,2.7-10,8v4c0,2.7-3.3,4-10,4H708.6c-6.7,0-10,2-10,6.1
+			v3.1c0,2-3.3,3.1-10,3.1h-34.7"/>
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
-			<text transform="matrix(1 0 0 1 723.2031 85.8063)" class="st5 st6">C</text>
-			<text transform="matrix(1 0 0 1 731.147 85.8063)" class="st5 st6">o</text>
-			<text transform="matrix(1 0 0 1 737.2646 85.8063)" class="st5 st6">r</text>
-			<text transform="matrix(1 0 0 1 740.9277 85.8063)" class="st5 st6">e</text>
-			<text transform="matrix(1 0 0 1 747.0454 85.8063)" class="st5 st6">s</text>
-			<text transform="matrix(1 0 0 1 752.5454 85.8063)" class="st5 st6">p</text>
-			<text transform="matrix(1 0 0 1 758.6631 85.8063)" class="st5 st6">o</text>
-			<text transform="matrix(1 0 0 1 764.7808 85.8063)" class="st5 st6">n</text>
-			<text transform="matrix(1 0 0 1 770.8984 85.8063)" class="st5 st6">d</text>
-			<text transform="matrix(1 0 0 1 777.0161 85.8063)" class="st5 st6">r</text>
-			<text transform="matrix(1 0 0 1 780.6792 85.8063)" class="st5 st6">e</text>
-		</g>
-	</g>
-	<g>
-		<g transform="translate(-0.5 -0.5)">
-			<text transform="matrix(1 0 0 1 827.3542 43.8063)" class="st5 st6">1</text>
-			<text transform="matrix(1 0 0 1 833.4719 43.8063)" class="st5 st6">,</text>
-			<text transform="matrix(1 0 0 1 836.5281 43.8063)" class="st5 st6">1</text>
+			<text transform="matrix(1 0 0 1 724.2031 85.8063)" class="st5 st6">C</text>
+			<text transform="matrix(1 0 0 1 732.147 85.8063)" class="st5 st6">o</text>
+			<text transform="matrix(1 0 0 1 738.2646 85.8063)" class="st5 st6">r</text>
+			<text transform="matrix(1 0 0 1 741.9277 85.8063)" class="st5 st6">e</text>
+			<text transform="matrix(1 0 0 1 748.0454 85.8063)" class="st5 st6">s</text>
+			<text transform="matrix(1 0 0 1 753.5454 85.8063)" class="st5 st6">p</text>
+			<text transform="matrix(1 0 0 1 759.6631 85.8063)" class="st5 st6">o</text>
+			<text transform="matrix(1 0 0 1 765.7808 85.8063)" class="st5 st6">n</text>
+			<text transform="matrix(1 0 0 1 771.8984 85.8063)" class="st5 st6">d</text>
+			<text transform="matrix(1 0 0 1 778.0161 85.8063)" class="st5 st6">r</text>
+			<text transform="matrix(1 0 0 1 781.6792 85.8063)" class="st5 st6">e</text>
 		</g>
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
-			<text transform="matrix(1 0 0 1 667.3542 70.8063)" class="st5 st6">0</text>
-			<text transform="matrix(1 0 0 1 673.4719 70.8063)" class="st5 st6">,</text>
-			<text transform="matrix(1 0 0 1 676.5281 70.8063)" class="st5 st6">n</text>
+			<text transform="matrix(1 0 0 1 826.3542 43.8063)" class="st5 st6">1</text>
+			<text transform="matrix(1 0 0 1 832.4719 43.8063)" class="st5 st6">,</text>
+			<text transform="matrix(1 0 0 1 835.5281 43.8063)" class="st5 st6">1</text>
 		</g>
 	</g>
 	<g>
-		<path pointer-events="stroke" class="st2" d="M1343.5,46.4h-11.1c-6.7,0-10,2.8-10,8.5v4.3c0,2.8-3.3,4.3-10,4.3h-112.9
-			c-6.7,0-10,0.8-10,2.5v1.3c0,0.8-3.3,1.3-10,1.3h-30.9c-6.7,0-10-1-10-2.9v-2.9"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 668.3542 70.8063)" class="st5 st6">0</text>
+			<text transform="matrix(1 0 0 1 674.4719 70.8063)" class="st5 st6">,</text>
+			<text transform="matrix(1 0 0 1 677.5281 70.8063)" class="st5 st6">n</text>
+		</g>
+	</g>
+	<g>
+		<path pointer-events="stroke" class="st2" d="M1343.5,46.5h-10.9c-6.7,0-10,2.8-10,8.5v4.3c0,2.8-3.3,4.3-10,4.3h-113.1
+			c-6.7,0-10,0.8-10,2.5v1.2c0,0.8-3.3,1.2-10,1.2h-30.9c-6.7,0-10-1-10-3.1v-3.1"/>
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
@@ -1896,13 +1848,13 @@
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
-			<text transform="matrix(1 0 0 1 1146.3542 61.8063)" class="st5 st6">0</text>
-			<text transform="matrix(1 0 0 1 1152.4719 61.8063)" class="st5 st6">,</text>
-			<text transform="matrix(1 0 0 1 1155.5281 61.8063)" class="st5 st6">n</text>
+			<text transform="matrix(1 0 0 1 1147.3542 61.8063)" class="st5 st6">0</text>
+			<text transform="matrix(1 0 0 1 1153.4719 61.8063)" class="st5 st6">,</text>
+			<text transform="matrix(1 0 0 1 1156.5281 61.8063)" class="st5 st6">n</text>
 		</g>
 	</g>
 	<g>
-		<path pointer-events="stroke" class="st2" d="M1885.4,234.6h-182.8c-6.7,0-10-3.3-10-10V74c0-6.7-3.3-10-10-10h-72.5"/>
+		<path pointer-events="stroke" class="st2" d="M1885.6,234.1h-183.1c-6.7,0-10-3.3-10-10V73.6c0-6.7-3.3-10-10-10h-72.2"/>
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
@@ -1921,9 +1873,9 @@
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
-			<text transform="matrix(1 0 0 1 1836.3542 226.8063)" class="st5 st6">1</text>
-			<text transform="matrix(1 0 0 1 1842.4719 226.8063)" class="st5 st6">,</text>
-			<text transform="matrix(1 0 0 1 1845.5281 226.8063)" class="st5 st6">1</text>
+			<text transform="matrix(1 0 0 1 1836.3542 225.8063)" class="st5 st6">1</text>
+			<text transform="matrix(1 0 0 1 1842.4719 225.8063)" class="st5 st6">,</text>
+			<text transform="matrix(1 0 0 1 1845.5281 225.8063)" class="st5 st6">1</text>
 		</g>
 	</g>
 	<g>
@@ -1934,8 +1886,8 @@
 		</g>
 	</g>
 	<g>
-		<path pointer-events="stroke" class="st2" d="M1837.2,467.5h-156.6c-6.7,0-10-3.3-10-10v-296c0-6.7-3.3-10-10-10h-18
-			c-6.7,0-10-3.3-10-10v-44c0-6.7-3.3-10-10-10h-6.2c-4.2,0-6.2-0.2-6.2-0.6v-0.6"/>
+		<path pointer-events="stroke" class="st2" d="M1837.4,467.1h-156.8c-6.7,0-10-3.3-10-10V161.6c0-6.7-3.3-10-10-10h-18
+			c-6.7,0-10-3.3-10-10V97.1c0-6.7-3.3-10-10-10h-13.4"/>
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
@@ -1954,9 +1906,9 @@
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
-			<text transform="matrix(1 0 0 1 1805.3542 461.8063)" class="st5 st6">1</text>
-			<text transform="matrix(1 0 0 1 1811.4719 461.8063)" class="st5 st6">,</text>
-			<text transform="matrix(1 0 0 1 1814.5281 461.8063)" class="st5 st6">1</text>
+			<text transform="matrix(1 0 0 1 1806.3542 460.8063)" class="st5 st6">1</text>
+			<text transform="matrix(1 0 0 1 1812.4719 460.8063)" class="st5 st6">,</text>
+			<text transform="matrix(1 0 0 1 1815.5281 460.8063)" class="st5 st6">1</text>
 		</g>
 	</g>
 	<g>
@@ -1967,19 +1919,19 @@
 		</g>
 	</g>
 	<g>
-		<path pointer-events="stroke" class="st2" d="M1344.2,727.5v82c0,6.7-3.3,10-10,10h-44.7c-6.7,0-10-3.3-10-10V186.4
+		<path pointer-events="stroke" class="st2" d="M1343.3,727.1v82.5c0,6.7-3.3,10-10,10h-43.8c-6.7,0-10-3.3-10-10V186.5
 			c0-6.7,3.3-10,10-10h54"/>
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
-			<text transform="matrix(1 0 0 1 1290.7686 557.8063)" class="st5 st6">P</text>
-			<text transform="matrix(1 0 0 1 1298.1055 557.8063)" class="st5 st6">o</text>
-			<text transform="matrix(1 0 0 1 1304.2231 557.8063)" class="st5 st6">s</text>
-			<text transform="matrix(1 0 0 1 1309.7231 557.8063)" class="st5 st6">s</text>
-			<text transform="matrix(1 0 0 1 1315.2231 557.8063)" class="st5 st6">é</text>
-			<text transform="matrix(1 0 0 1 1321.3408 557.8063)" class="st5 st6">d</text>
-			<text transform="matrix(1 0 0 1 1327.4585 557.8063)" class="st5 st6">e</text>
-			<text transform="matrix(1 0 0 1 1333.5762 557.8063)" class="st5 st6">r</text>
+			<text transform="matrix(1 0 0 1 1290.7686 558.8063)" class="st5 st6">P</text>
+			<text transform="matrix(1 0 0 1 1298.1055 558.8063)" class="st5 st6">o</text>
+			<text transform="matrix(1 0 0 1 1304.2231 558.8063)" class="st5 st6">s</text>
+			<text transform="matrix(1 0 0 1 1309.7231 558.8063)" class="st5 st6">s</text>
+			<text transform="matrix(1 0 0 1 1315.2231 558.8063)" class="st5 st6">é</text>
+			<text transform="matrix(1 0 0 1 1321.3408 558.8063)" class="st5 st6">d</text>
+			<text transform="matrix(1 0 0 1 1327.4585 558.8063)" class="st5 st6">e</text>
+			<text transform="matrix(1 0 0 1 1333.5762 558.8063)" class="st5 st6">r</text>
 		</g>
 	</g>
 	<g>
@@ -1997,7 +1949,7 @@
 		</g>
 	</g>
 	<g>
-		<rect x="723.5" y="282.5" pointer-events="all" class="st1" width="218" height="87.7"/>
+		<rect x="723.5" y="282.5" pointer-events="all" class="st1" width="218" height="89"/>
 		<path pointer-events="all" class="st2" d="M723.5,299.5h218"/>
 	</g>
 	<g>
@@ -2038,11 +1990,19 @@
 	</g>
 	<g>
 		<g>
-			<text transform="matrix(1 0 0 1 730 349)" class="st5 st4">+eraseCredentials() : void </text>
+			<text transform="matrix(1 0 0 1 730 349)" class="st5 st4">+setRoles(array roles) : static </text>
 		</g>
 	</g>
 	<g>
-		<rect x="990.5" y="282.5" pointer-events="all" class="st1" width="265" height="47.2"/>
+		<rect x="723.5" y="352.5" pointer-events="all" class="st0" width="218" height="16"/>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 730 365)" class="st5 st4">+eraseCredentials() : void </text>
+		</g>
+	</g>
+	<g>
+		<rect x="990.5" y="282.5" pointer-events="all" class="st1" width="265" height="57"/>
 		<path pointer-events="all" class="st2" d="M990.5,299.5h265"/>
 	</g>
 	<g>
@@ -2091,16 +2051,24 @@
 		</g>
 	</g>
 	<g>
-		<path pointer-events="stroke" class="st7" d="M993.6,602.8l-66-64.3c-4.8-4.7-8.5-10-11.1-16.2l-64.4-150.1"/>
-		<path pointer-events="all" class="st2" d="M862,379.9l-10.2-8.7l-0.8,13.4"/>
+		<rect x="990.5" y="320.5" pointer-events="all" class="st0" width="265" height="16"/>
 	</g>
 	<g>
-		<path pointer-events="stroke" class="st7" d="M993.6,602.8l76.6-93.5c4.2-5.2,7.1-11,8.6-17.5l38.1-159.9"/>
-		<path pointer-events="all" class="st2" d="M1120.2,343.8l-3.1-13.1l-8.6,10.3"/>
+		<g>
+			<text transform="matrix(1 0 0 1 997 333)" class="st5 st4">+setPassword(string password) : static</text>
+		</g>
 	</g>
 	<g>
-		<path pointer-events="stroke" class="st2" d="M412.4,65.2v-1.5c0-1-3.3-1.5-10-1.5H258.6c-6.7,0-10,0.3-10,0.9v0.5
-			c0,0.3-3.3,0.5-10,0.5H223"/>
+		<path pointer-events="stroke" class="st7" d="M993.8,602.4l-66.2-63.9c-4.8-4.6-8.5-10-11.1-16.1l-64-148.8"/>
+		<path pointer-events="all" class="st2" d="M862.3,381.2l-10.3-8.6l-0.8,13.4"/>
+	</g>
+	<g>
+		<path pointer-events="stroke" class="st7" d="M993.8,602.4l76.3-93.1c4.2-5.2,7.1-11,8.7-17.4l36.6-150.1"/>
+		<path pointer-events="all" class="st2" d="M1118.8,353.7l-3-13.1l-8.7,10.2"/>
+	</g>
+	<g>
+		<path pointer-events="stroke" class="st2" d="M412.7,64.7v-1.4c0-0.9-3.3-1.4-10-1.4H258.6c-6.7,0-10,0.3-10,0.8v0.4
+			c0,0.3-3.3,0.4-10,0.4h-15.3"/>
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
@@ -2125,47 +2093,47 @@
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
-			<text transform="matrix(1 0 0 1 226.3542 58.8063)" class="st5 st6">0</text>
-			<text transform="matrix(1 0 0 1 232.4719 58.8063)" class="st5 st6">,</text>
-			<text transform="matrix(1 0 0 1 235.5281 58.8063)" class="st5 st6">n</text>
+			<text transform="matrix(1 0 0 1 227.3542 58.8063)" class="st5 st6">0</text>
+			<text transform="matrix(1 0 0 1 233.4719 58.8063)" class="st5 st6">,</text>
+			<text transform="matrix(1 0 0 1 236.5281 58.8063)" class="st5 st6">n</text>
 		</g>
 	</g>
 	<g>
-		<path pointer-events="stroke" class="st2" d="M852.4,48.7h-10.9c-6.7,0-10,2.8-10,8.4v4.2c0,2.8-3.3,4.2-10,4.2H708.6
-			c-6.7,0-10,2.1-10,6.3v3.2c0,2.1-3.3,3.1-10,3.1h-34.9"/>
+		<path pointer-events="stroke" class="st2" d="M852.7,49.4h-11.2c-6.7,0-10,2.7-10,8v4c0,2.7-3.3,4-10,4H708.6c-6.7,0-10,2-10,6.1
+			v3.1c0,2-3.3,3.1-10,3.1h-34.7"/>
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
-			<text transform="matrix(1 0 0 1 723.2031 85.8063)" class="st5 st6">C</text>
-			<text transform="matrix(1 0 0 1 731.147 85.8063)" class="st5 st6">o</text>
-			<text transform="matrix(1 0 0 1 737.2646 85.8063)" class="st5 st6">r</text>
-			<text transform="matrix(1 0 0 1 740.9277 85.8063)" class="st5 st6">e</text>
-			<text transform="matrix(1 0 0 1 747.0454 85.8063)" class="st5 st6">s</text>
-			<text transform="matrix(1 0 0 1 752.5454 85.8063)" class="st5 st6">p</text>
-			<text transform="matrix(1 0 0 1 758.6631 85.8063)" class="st5 st6">o</text>
-			<text transform="matrix(1 0 0 1 764.7808 85.8063)" class="st5 st6">n</text>
-			<text transform="matrix(1 0 0 1 770.8984 85.8063)" class="st5 st6">d</text>
-			<text transform="matrix(1 0 0 1 777.0161 85.8063)" class="st5 st6">r</text>
-			<text transform="matrix(1 0 0 1 780.6792 85.8063)" class="st5 st6">e</text>
-		</g>
-	</g>
-	<g>
-		<g transform="translate(-0.5 -0.5)">
-			<text transform="matrix(1 0 0 1 827.3542 43.8063)" class="st5 st6">1</text>
-			<text transform="matrix(1 0 0 1 833.4719 43.8063)" class="st5 st6">,</text>
-			<text transform="matrix(1 0 0 1 836.5281 43.8063)" class="st5 st6">1</text>
+			<text transform="matrix(1 0 0 1 724.2031 85.8063)" class="st5 st6">C</text>
+			<text transform="matrix(1 0 0 1 732.147 85.8063)" class="st5 st6">o</text>
+			<text transform="matrix(1 0 0 1 738.2646 85.8063)" class="st5 st6">r</text>
+			<text transform="matrix(1 0 0 1 741.9277 85.8063)" class="st5 st6">e</text>
+			<text transform="matrix(1 0 0 1 748.0454 85.8063)" class="st5 st6">s</text>
+			<text transform="matrix(1 0 0 1 753.5454 85.8063)" class="st5 st6">p</text>
+			<text transform="matrix(1 0 0 1 759.6631 85.8063)" class="st5 st6">o</text>
+			<text transform="matrix(1 0 0 1 765.7808 85.8063)" class="st5 st6">n</text>
+			<text transform="matrix(1 0 0 1 771.8984 85.8063)" class="st5 st6">d</text>
+			<text transform="matrix(1 0 0 1 778.0161 85.8063)" class="st5 st6">r</text>
+			<text transform="matrix(1 0 0 1 781.6792 85.8063)" class="st5 st6">e</text>
 		</g>
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
-			<text transform="matrix(1 0 0 1 667.3542 70.8063)" class="st5 st6">0</text>
-			<text transform="matrix(1 0 0 1 673.4719 70.8063)" class="st5 st6">,</text>
-			<text transform="matrix(1 0 0 1 676.5281 70.8063)" class="st5 st6">n</text>
+			<text transform="matrix(1 0 0 1 826.3542 43.8063)" class="st5 st6">1</text>
+			<text transform="matrix(1 0 0 1 832.4719 43.8063)" class="st5 st6">,</text>
+			<text transform="matrix(1 0 0 1 835.5281 43.8063)" class="st5 st6">1</text>
 		</g>
 	</g>
 	<g>
-		<path pointer-events="stroke" class="st2" d="M1343.5,46.4h-11.1c-6.7,0-10,2.8-10,8.5v4.3c0,2.8-3.3,4.3-10,4.3h-112.9
-			c-6.7,0-10,0.8-10,2.5v1.3c0,0.8-3.3,1.3-10,1.3h-30.9c-6.7,0-10-1-10-2.9v-2.9"/>
+		<g transform="translate(-0.5 -0.5)">
+			<text transform="matrix(1 0 0 1 668.3542 70.8063)" class="st5 st6">0</text>
+			<text transform="matrix(1 0 0 1 674.4719 70.8063)" class="st5 st6">,</text>
+			<text transform="matrix(1 0 0 1 677.5281 70.8063)" class="st5 st6">n</text>
+		</g>
+	</g>
+	<g>
+		<path pointer-events="stroke" class="st2" d="M1343.5,46.5h-10.9c-6.7,0-10,2.8-10,8.5v4.3c0,2.8-3.3,4.3-10,4.3h-113.1
+			c-6.7,0-10,0.8-10,2.5v1.2c0,0.8-3.3,1.2-10,1.2h-30.9c-6.7,0-10-1-10-3.1v-3.1"/>
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
@@ -2191,13 +2159,13 @@
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
-			<text transform="matrix(1 0 0 1 1146.3542 61.8063)" class="st5 st6">0</text>
-			<text transform="matrix(1 0 0 1 1152.4719 61.8063)" class="st5 st6">,</text>
-			<text transform="matrix(1 0 0 1 1155.5281 61.8063)" class="st5 st6">n</text>
+			<text transform="matrix(1 0 0 1 1147.3542 61.8063)" class="st5 st6">0</text>
+			<text transform="matrix(1 0 0 1 1153.4719 61.8063)" class="st5 st6">,</text>
+			<text transform="matrix(1 0 0 1 1156.5281 61.8063)" class="st5 st6">n</text>
 		</g>
 	</g>
 	<g>
-		<path pointer-events="stroke" class="st2" d="M1885.4,234.6h-182.8c-6.7,0-10-3.3-10-10V74c0-6.7-3.3-10-10-10h-72.5"/>
+		<path pointer-events="stroke" class="st2" d="M1885.6,234.1h-183.1c-6.7,0-10-3.3-10-10V73.6c0-6.7-3.3-10-10-10h-72.2"/>
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
@@ -2216,9 +2184,9 @@
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
-			<text transform="matrix(1 0 0 1 1836.3542 226.8063)" class="st5 st6">1</text>
-			<text transform="matrix(1 0 0 1 1842.4719 226.8063)" class="st5 st6">,</text>
-			<text transform="matrix(1 0 0 1 1845.5281 226.8063)" class="st5 st6">1</text>
+			<text transform="matrix(1 0 0 1 1836.3542 225.8063)" class="st5 st6">1</text>
+			<text transform="matrix(1 0 0 1 1842.4719 225.8063)" class="st5 st6">,</text>
+			<text transform="matrix(1 0 0 1 1845.5281 225.8063)" class="st5 st6">1</text>
 		</g>
 	</g>
 	<g>
@@ -2229,8 +2197,8 @@
 		</g>
 	</g>
 	<g>
-		<path pointer-events="stroke" class="st2" d="M1837.2,467.5h-156.6c-6.7,0-10-3.3-10-10v-296c0-6.7-3.3-10-10-10h-18
-			c-6.7,0-10-3.3-10-10v-44c0-6.7-3.3-10-10-10h-6.2c-4.2,0-6.2-0.2-6.2-0.6v-0.6"/>
+		<path pointer-events="stroke" class="st2" d="M1837.4,467.1h-156.8c-6.7,0-10-3.3-10-10V161.6c0-6.7-3.3-10-10-10h-18
+			c-6.7,0-10-3.3-10-10V97.1c0-6.7-3.3-10-10-10h-13.4"/>
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
@@ -2249,9 +2217,9 @@
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
-			<text transform="matrix(1 0 0 1 1805.3542 461.8063)" class="st5 st6">1</text>
-			<text transform="matrix(1 0 0 1 1811.4719 461.8063)" class="st5 st6">,</text>
-			<text transform="matrix(1 0 0 1 1814.5281 461.8063)" class="st5 st6">1</text>
+			<text transform="matrix(1 0 0 1 1806.3542 460.8063)" class="st5 st6">1</text>
+			<text transform="matrix(1 0 0 1 1812.4719 460.8063)" class="st5 st6">,</text>
+			<text transform="matrix(1 0 0 1 1815.5281 460.8063)" class="st5 st6">1</text>
 		</g>
 	</g>
 	<g>
@@ -2262,19 +2230,19 @@
 		</g>
 	</g>
 	<g>
-		<path pointer-events="stroke" class="st2" d="M1344.2,727.5v82c0,6.7-3.3,10-10,10h-44.7c-6.7,0-10-3.3-10-10V186.4
+		<path pointer-events="stroke" class="st2" d="M1343.3,727.1v82.5c0,6.7-3.3,10-10,10h-43.8c-6.7,0-10-3.3-10-10V186.5
 			c0-6.7,3.3-10,10-10h54"/>
 	</g>
 	<g>
 		<g transform="translate(-0.5 -0.5)">
-			<text transform="matrix(1 0 0 1 1290.7686 557.8063)" class="st5 st6">P</text>
-			<text transform="matrix(1 0 0 1 1298.1055 557.8063)" class="st5 st6">o</text>
-			<text transform="matrix(1 0 0 1 1304.2231 557.8063)" class="st5 st6">s</text>
-			<text transform="matrix(1 0 0 1 1309.7231 557.8063)" class="st5 st6">s</text>
-			<text transform="matrix(1 0 0 1 1315.2231 557.8063)" class="st5 st6">é</text>
-			<text transform="matrix(1 0 0 1 1321.3408 557.8063)" class="st5 st6">d</text>
-			<text transform="matrix(1 0 0 1 1327.4585 557.8063)" class="st5 st6">e</text>
-			<text transform="matrix(1 0 0 1 1333.5762 557.8063)" class="st5 st6">r</text>
+			<text transform="matrix(1 0 0 1 1290.7686 558.8063)" class="st5 st6">P</text>
+			<text transform="matrix(1 0 0 1 1298.1055 558.8063)" class="st5 st6">o</text>
+			<text transform="matrix(1 0 0 1 1304.2231 558.8063)" class="st5 st6">s</text>
+			<text transform="matrix(1 0 0 1 1309.7231 558.8063)" class="st5 st6">s</text>
+			<text transform="matrix(1 0 0 1 1315.2231 558.8063)" class="st5 st6">é</text>
+			<text transform="matrix(1 0 0 1 1321.3408 558.8063)" class="st5 st6">d</text>
+			<text transform="matrix(1 0 0 1 1327.4585 558.8063)" class="st5 st6">e</text>
+			<text transform="matrix(1 0 0 1 1333.5762 558.8063)" class="st5 st6">r</text>
 		</g>
 	</g>
 	<g>
@@ -2292,12 +2260,12 @@
 		</g>
 	</g>
 	<g>
-		<path pointer-events="stroke" class="st7" d="M993.6,602.8l-66-64.3c-4.8-4.7-8.5-10-11.1-16.2l-64.4-150.1"/>
-		<path pointer-events="all" class="st2" d="M862,379.9l-10.2-8.7l-0.8,13.4"/>
+		<path pointer-events="stroke" class="st7" d="M993.8,602.4l-66.2-63.9c-4.8-4.6-8.5-10-11.1-16.1l-64-148.8"/>
+		<path pointer-events="all" class="st2" d="M862.3,381.2l-10.3-8.6l-0.8,13.4"/>
 	</g>
 	<g>
-		<path pointer-events="stroke" class="st7" d="M993.6,602.8l76.6-93.5c4.2-5.2,7.1-11,8.6-17.5l38.1-159.9"/>
-		<path pointer-events="all" class="st2" d="M1120.2,343.8l-3.1-13.1l-8.6,10.3"/>
+		<path pointer-events="stroke" class="st7" d="M993.8,602.4l76.3-93.1c4.2-5.2,7.1-11,8.7-17.4l36.6-150.1"/>
+		<path pointer-events="all" class="st2" d="M1118.8,353.7l-3-13.1l-8.7,10.2"/>
 	</g>
 </g>
 <a transform="translate(0,-5)">
