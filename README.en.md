@@ -55,11 +55,15 @@ Contact information, including the form, is also visible at the bottom of each u
 
 - IDE: [PhpStorm 2023.1.4](https://www.jetbrains.com/phpstorm/download)
 
+- version control system: [Git version 2.41.0](https://git-scm.com/)
+
 - local webserver: [XAMPP 8.2.4-0](https://www.apachefriends.org/download.html)
 
 - general purpose scripting language: [PHP 8.2.8](https://www.php.net/downloads)
 
 - dependency management in PHP: [Composer version 2.5.8](https://getcomposer.org/download/)
+
+- developer tool to build, run, and manage your Symfony applications: [Symfony CLI version 5.5.8](https://symfony.com/download)
 
 - JavaScript runtime: [Node.js 18.17.0](https://nodejs.org/en/download)
 
@@ -69,9 +73,7 @@ Contact information, including the form, is also visible at the bottom of each u
 
 - package manager: [yarn 1.22.19](https://classic.yarnpkg.com/lang/en/docs/install/)
 
-- web browser: [Google Chrome 115.0.5790.102](https://www.google.com/intl/fr/chrome/)
-
-- version control system: [Git version 2.41.0](https://git-scm.com/)
+- web browser: [Google Chrome 115.0.5790.102](https://www.google.com/intl/en/chrome/)
 
 ## Installation
 
@@ -80,6 +82,8 @@ You can clone this repository to create a local copy on your computer:
 ```bash
 git clone git@github.com:danian3wa/VParrotwebapp.git
 ```
+In order to use a MySQL database you should enable the driver in php.ini on your device if it's not already enabled.
+Uncomment "extension=php_pdo_mysql.dll" in your php.ini file
 
 After configuring the work environment you can proceed to installing the necessary components. You need to open the cloned project in your IDE. In the terminal of your IDE you must go to the folder of the newly created project after the cloning if it is not already the case:
 

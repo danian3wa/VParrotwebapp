@@ -58,11 +58,15 @@ Les informations de contact, formulaire compris, sont également visibles en bas
 
 - IDE: [PhpStorm 2023.1.4](https://www.jetbrains.com/phpstorm/download)
 
+- système de contrôle de version: [Git version 2.41.0](https://git-scm.com/)
+
 - serveur Web local: [XAMPP 8.2.4-0](https://www.apachefriends.org/download.html)
 
 - langage de scripts généraliste: [PHP 8.2.8](https://www.php.net/downloads)
 
 - gestion des dépendances en PHP: [Composer version 2.5.8](https://getcomposer.org/download/)
+
+- outil de développement pour créer, exécuter et gérer vos applications Symfony: [Symfony CLI version 5.5.8](https://symfony.com/download)
 
 - moteur d'exécution JavaScript: [Node.js 18.17.0](https://nodejs.org/en/download)
 
@@ -74,8 +78,6 @@ Les informations de contact, formulaire compris, sont également visibles en bas
 
 - navigateur Web: [Google Chrome 115.0.5790.102](https://www.google.com/intl/fr/chrome/)
 
-- système de contrôle de version: [Git version 2.41.0](https://git-scm.com/)
-
 ## Installation
 
 Vous pouvez cloner ce dépôt pour créer une copie locale sur votre ordinateur:
@@ -83,6 +85,8 @@ Vous pouvez cloner ce dépôt pour créer une copie locale sur votre ordinateur:
 ```bash
 git clone git@github.com:danian3wa/VParrotwebapp.git
 ```
+Pour utiliser une base de données MySQL, vous devez activer le pilote dans php.ini sur votre appareil s'il n'est pas déjà activé.
+Décommentez "extension=php_pdo_mysql.dll" dans votre fichier php.ini.
 
 Après la configuration de l'environnement du travail vous pouvez passer à l'installation des composants nécessaire. Vous devez ouvrir le projet cloné dans votre IDE. Dans le terminal de votre IDE vous devez vous rendre dans le dossier du projet nouvellement crée après le clonage si ce n'est pas deja le cas:
 

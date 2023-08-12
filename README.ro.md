@@ -55,11 +55,15 @@ Informațiile de contact, inclusiv formularul, sunt, de asemenea, vizibile în p
 
 - IDE: [PhpStorm 2023.1.4](https://www.jetbrains.com/phpstorm/download)
 
+- sistem de control al versiunilor: [Git versiunea 2.41.0](https://git-scm.com/)
+
 - server web local: [XAMPP 8.2.4-0](https://www.apachefriends.org/download.html)
 
 - limbaj de scripting de uz general: [PHP 8.2.8](https://www.php.net/downloads)
 
-- gestionarea dependențelor în PHP: [Versiunea Composer 2.5.8](https://getcomposer.org/download/)
+- gestionarea dependențelor în PHP: [Composer versiunea 2.5.8](https://getcomposer.org/download/)
+
+- instrument de dezvoltare pentru a construi, rula și gestiona aplicațiile Symfony: [Symfony CLI versiunea 5.5.8](https://symfony.com/download)
 
 - mediu de execuție JavaScript: [Node.js 18.17.0](https://nodejs.org/en/download)
 
@@ -69,9 +73,7 @@ Informațiile de contact, inclusiv formularul, sunt, de asemenea, vizibile în p
 
 - manager de pachete: [yarn 1.22.19](https://classic.yarnpkg.com/lang/en/docs/install/)
 
-- browser web: [Google Chrome 115.0.5790.102](https://www.google.com/intl/fr/chrome/)
-
-- sistem de control al versiunilor: [Git versiunea 2.41.0](https://git-scm.com/)
+- browser web: [Google Chrome 115.0.5790.102](https://www.google.com/intl/ro/chrome/)
 
 ## Instalare
 
@@ -80,6 +82,9 @@ Puteți clona acest depozit pentru a crea o copie locală pe computerul dvs.:
 ```bash
 git clone git@github.com:danian3wa/VParrotwebapp.git
 ```
+
+Pentru a utiliza o bază de date MySQL, ar trebui să activați driverul în php.ini pe dispozitivul dvs. dacă nu este deja activat.
+Anulați comentariul „extension=php_pdo_mysql.dll” din fișierul php.ini.
 
 După configurarea mediului de lucru puteți trece la instalarea componentelor necesare. Trebuie să deschideți proiectul clonat în IDE. În terminalul IDE-ului tău trebuie să mergi în folderul noului proiect creat după clonare dacă nu este deja cazul:
 
