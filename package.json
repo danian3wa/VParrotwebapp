@@ -19,7 +19,6 @@
     },
     "dependencies": {
         "flip-toolkit": "^7.1.0",
-        "nouislider": "^15.7.1",
-        "npx": "^3.0.0"
+        "nouislider": "^15.7.1"
     }
 }
